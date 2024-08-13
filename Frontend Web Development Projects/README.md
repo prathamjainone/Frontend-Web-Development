@@ -1,19 +1,22 @@
-# 🔧 Frontend Technologies Overview
+# 🔧 Frontend Projects Overview
 
-Welcome to the **Frontend Projects** repository! This page provides an overview of the various technologies used in my frontend projects. Each folder contains projects showcasing specific technologies and techniques used in modern web development.
+Welcome to the **Frontend Projects** repository! This page provides an overview of the technology folders included in this collection. Each folder contains projects that highlight different aspects of modern web development.
 
-## 🚀 Technologies and Folders
+## 🚀 Technology Folders
 
-- **[HTML & CSS Projects](./html-css):** Explore a variety of designs and layouts using HTML and CSS, including responsive designs and UI components.
-- **[JavaScript Projects](./javascript):** Interactive applications built with JavaScript, featuring projects like Tic-Tac-Toe, Rock-Paper-Scissors, Calculator, and To-Do List.
-- **[Tailwind CSS Projects](./tailwind):** Projects showcasing the use of Tailwind CSS for creating modern, responsive designs with utility-first classes.
-- **[GSAP Projects](./gsap):** Animations and effects using GSAP, including ScrollTrigger and Locomotive Scroll integrations for smooth, high-performance animations.
+- **[Projects with GSAP and More](./Projects%20with%20GSAP%20and%20more):** Explore projects featuring GSAP for animations, including advanced techniques with ScrollTrigger and Locomotive Scroll for smooth, high-performance effects.
+
+- **[Projects with HTML and CSS](./Projects%20with%20HTML%20and%20CSS):** Discover various designs and layouts using HTML and CSS, including responsive designs and elegant styling.
+
+- **[Projects with JS](./Projects%20with%20JS):** Check out interactive applications built with JavaScript, such as Tic-Tac-Toe, Rock-Paper-Scissors, Calculator, and To-Do List.
+
+- **[Projects with Tailwind](./Projects%20with%20Tailwind):** View projects utilizing Tailwind CSS to create modern, utility-first designs and responsive layouts.
 
 ## 📁 Folder Structure
 
-- Each technology folder contains specific projects demonstrating different aspects of that technology.
-- **Project Types:** Vary from static pages and UI components to interactive web applications and animations.
+- Each folder contains specific projects demonstrating different technologies and techniques.
+- **Project Types:** Range from static pages and UI components to interactive applications and animations.
 
-Explore each folder to see how these technologies are applied in real-world projects. Feel free to review the code, offer feedback, or contribute improvements!
+Explore each folder to see how these technologies are applied in real-world projects. Feel free to dive into the code, provide feedback, or contribute improvements!
 
 Happy exploring! 💻✨
