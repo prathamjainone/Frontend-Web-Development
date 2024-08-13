@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left {
+    height: 100%;
+    width: 50%;
+  }
+  
+  .right {
+    width: 50%;
+  }
+  
+  .left h1 {
+    padding-top: 15%;
+    padding-left: 10%;
+    font-size: 7vw;
+    font-weight: 100;
+    line-height: 8vw;
+  }
+  
+  .colors {
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 15px;
+    margin-right: 70%;
+    border: black solid 1px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .colors h3 {
+    padding-right: 10px;
+  }
+  
+  .brown,
+  .skin {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    /* flex-shrink: 0; */
+  }
+  
+  .brown {
+    background-color: brown;
+    margin-right: 5px;
+  }
+  
+  .skin {
+    background-color: sandybrown;
+  }
+  
+  .details {
+    margin-left: 10%;
+    margin-top: 8%;
+  }
+  
+  .details h3 {
+    font-weight: 300;
+    font-size: 1.4vw;
+    margin-bottom: 1.2vw;
+  }
+  
+  .details h4 {
+    color: dimgrey;
+    font-weight: bold;
+    line-height: 2vw;
+  }
+  
+  .main-right {
+    height: 50%;
+    width: 35vw;
+    margin-top: 12vw;
+  }
+  
+  .price {
+    height: 4.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dol {
+    font-size: 25px;
+  }
+  
+  .rating {
+    font-size: 20px;
+    display: flex;
+    padding-left: 19vw;
+  }
+  
+  .stars {
+    font-size: 1.3vw;
+  }
+  
+  .stars i {
+    color: goldenrod;
+  }
+  
+  .image img {
+    height: 28vw;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .gola {
+    height: 10vw;
+    width: 13vw;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 20vw;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gola h2 {
+    color: white;
+    font-weight: 100;
+  }
+  
+  .rotate {
+    font-weight: 400;
+    font-size: 30px;
+    rotate: -90deg;
+    position: absolute;
+    bottom: 20%;
+    right: 43%;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .left h1 {
+      font-size: 10vw;
+      line-height: 11vw;
+    }
+    
+  
+    .details h3 {
+      font-size: 2vw;
+    }
+  
+    .details h4 {
+      line-height: 3vw;
+    }
+  
+    .main-right {
+      width: 45vw;
+    }
+  
+    .price {
+      height: 6vw;
+    }
+  
+    .dol {
+      font-size: 20px;
+    }
+  
+    .rating {
+      font-size: 16px;
+      padding-left: 15vw;
+    }
+  
+    .stars {
+      font-size: 1.8vw;
+    }
+  
+    .image img {
+      height: 35vw;
+    }
+  
+    .gola {
+      height: 12vw;
+      width: 15vw;
+      bottom: 25vw;
+    }
+    .gola h2 {
+        font-size: 2vw; /* Adjust font size as needed */
+        padding: 10px; /* Add padding if necessary */
+      }
+    
+  
+    .rotate {
+      font-size: 35px;
+      opacity: 0;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .main {
+      flex-direction: column;
+    }
+  
+    .left,
+    .right {
+      width: 100%;
+      height: auto;
+    }
+  
+    .left h1 {
+      padding-top: 5%;
+      font-size: 12vw;
+      line-height: 13vw;
+    }
+  
+    .colors {
+      margin-top: 10%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .details {
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+  
+    .details h3 {
+      font-size: 3vw;
+    }
+  
+    .details h4 {
+      line-height: 4vw;
+    }
+  
+    .main-right {
+      width: 90%;
+      margin: 10% auto;
+      height: auto;
+    }
+  
+    .price {
+      height: 8vw;
+    }
+  
+    .dol {
+      font-size: 22px;
+    }
+  
+    .rating {
+      font-size: 18px;
+      padding-left: 10vw;
+    }
+  
+    .stars {
+      font-size: 2vw;
+    }
+  
+    .image img {
+      height: 50vw;
+    }
+  
+    .gola {
+      height: 15vw;
+      width: 20vw;
+      bottom: 30vw;
+    }
+  
+    .rotate {
+      font-size: 40px;
+      opacity: 0;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .left h1 {
+      font-size: 15vw;
+      line-height: 16vw;
+    }
+  
+    .colors {
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+  
+    .details h3 {
+      font-size: 4vw;
+    }
+  
+    .details h4 {
+      line-height: 5vw;
+    }
+  
+    .main-right {
+      width: 95%;
+    }
+  
+    .price {
+      height: 10vw;
+    }
+  
+    .dol {
+      font-size: 20px;
+    }
+  
+    .rating {
+      font-size: 16px;
+      padding-left: 5vw;
+    }
+  
+    .stars {
+      font-size: 2.5vw;
+    }
+  
+    .image img {
+      height: 90vw;
+    }
+  
+    .gola {
+      height: 18vw;
+      width: 25vw;
+      bottom: 35vw;
+      left: 88%;
+    }
+  
+    .rotate {
+      font-size: 45px;
+    }
+  }
+  

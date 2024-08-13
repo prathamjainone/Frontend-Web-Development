@@ -1,0 +1,1 @@
+Make a toggle button for normal mode ww2 mode etc with aesthetic

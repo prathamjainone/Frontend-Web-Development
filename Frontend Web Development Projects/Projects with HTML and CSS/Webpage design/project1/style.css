@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    /* background-color: aqua; */
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    padding-right: 25px;
+}
+h4{
+    font-weight: 100;
+}
+
+.header i{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.heading{
+    /* background-color: brown; */
+    height: 35%;
+}
+.heading pre{
+    font-size: 4vw;
+    font-weight: 100;
+    padding: 0px 100px;
+}
+.subheading{
+    height: 30%;
+    padding:50px 85px;
+    margin-top: -40px;
+    font-weight: 100;
+    line-height: 1.4vw;
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vw;
+}
+.subheading pre{
+    opacity: 0.7;
+}
+
+/* .low{
+    padding-right: 50px;
+} */
+
+.right{
+    /* background-color: aqua; */
+    height: 80%;
+    width: 30%;
+}
+.el{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid black 1px;
+    line-height: 60px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.right i{
+    opacity: 0;
+}
+
+.el:hover i{
+    opacity: 1;
+}
+
+.img{
+    height: 27.3%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1529720317453-c8da503f2051?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    margin-top: -50px;
+    background-position: 0 60%;
+}
+
+@media(max-width:600px){
+    h4{opacity: 0;}
+    .heading pre{
+        font-size: 8vw;
+        font-weight: 100;
+        /* padding: 0px 100px; */
+    }
+    .subheading{
+        line-height: 2.2vw;
+        font-size: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .subheading pre{
+        opacity: 0.7;
+        margin-bottom: 4vw;
+        margin-top: -6vw;
+    }
+    .el{
+        line-height: 7vw;
+        margin-left: 2vw;
+        
+    }
+    .el i{
+        opacity: 1;
+    }
+    .right{
+        width: 100%;
+        margin-bottom: 1vw;
+    }
+    .img{
+        height: 30%;
+        width: 100%;
+        background-image: url(https://images.unsplash.com/photo-1529720317453-c8da503f2051?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        margin-top: -50px;
+        background-position: 0 45%;
+    }
+}
